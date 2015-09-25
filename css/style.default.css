@@ -142,6 +142,10 @@ p.social a.gplus {
 p.social a.twitter {
   background-color: #3cf;
 }
+
+p.social a.github {
+  background-color: #383838;
+}
 p.social a.instagram {
   background-color: #cd4378;
 }
