@@ -146,6 +146,10 @@ p.social a.twitter {
 p.social a.github {
   background-color: #383838;
 }
+
+p.social a.resume {
+  background-color: #383838;
+}
 p.social a.instagram {
   background-color: #cd4378;
 }
