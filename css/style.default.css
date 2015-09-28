@@ -182,12 +182,12 @@ p.social a.email {
     text-align: center !important;
   }
 }
-#page1 {
+/*#page1 {
   text-align: center;
   background: url('../img/macbook-juice.jpg') center center no-repeat;
   background-size: cover;
   color: #fff;
-}
+}*/
 #page1 h1,
 #page1 h2,
 #page1 h3 {

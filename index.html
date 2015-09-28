@@ -37,11 +37,12 @@ Keep this panel open you may find more comments like such along the way!!
   </head>
   <body>
     <div class="wrapper">
+
       <div class="main"> 
         <!-- page 1-->
 <!--         <section id="page1">
           <div class="overlay"></div>
-          <div class="content">
+          <div class="content" style="background-color:#d3d3d3;">
             <div class="container clearfix">
               <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-sm-12">
@@ -53,20 +54,30 @@ Keep this panel open you may find more comments like such along the way!!
           </div>
         </section> -->
         <!-- page 2-->
+      <!--Bad coding example right here. Please don't judge me :(-->
+      <style>
+        #about{
+          background-image: url("https://cdn.vectorstock.com/i/composite/60,32/vintage-polka-dots-background-vector-816032.jpg");
+        }
+
+        </style>
+
+
         <section id="about">
           <div class="content">
-            <div class="container clearfix">
+            <div class="container clearfix" style="background-color:#fff; opacity:1;">
               <div class="row">
-                <div class="col-md-6"> 
-                  <h2 class="heading">About me</h2>
-					<!--<p class="lead">This can be an about section or anything else ;)</p>-->                  
- 					<p>Hi , I am Spurrya! I am a <b>Mechatronics Engineer  </b> and want to work on projects with technologies that help make an impact.  </p>
-                  <p>Currently, this website is still in progresss. Please check back a bit later.</p>
+                <div class="col-md-6" style="text-align:center;"> 
+                  <h2 class="heading" >Hi, I am Spurrya</h2>
+ 					<p>I am a <b>Mechatronics Engineer  </b> and want to work on projects and technologies that help make a positive impact on people.  </p>
+                  <p>I am passionate about software development and try to contribute to open source projects. I usually download open source projects and observe how they are implemented and try to learn about their architecture.</p>
+
+                  <p>I have started to write blogs so I develop a better understanding of my thinking process and will be publishing one soon!</p>
                   <p class="social"><a href="mailto:s4jaggi@uwaterloo.ca" title="" class="email"><i class="fa fa-envelope"></i></a><a href="https://github.com/Spurrya" title="" class="github"><i class="fa fa-github"></i></a><a href="resume.pdf" class="gplus"><i class="fa fa-file-pdf-o"></i></a></p>
                 </div>
                 <div class="col-md-5 col-md-offset-1">
                 <!-- Professional pictures are boring-->
-                  <p><img src="img/about.jpg" alt="" class="img-responsive img-circle"></p>
+                  <p><img src="img/about.jpg" alt="" class="img-responsive"></p>
                 </div>
               </div>
             </div>
